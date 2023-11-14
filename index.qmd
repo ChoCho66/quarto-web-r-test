@@ -1,7 +1,8 @@
 ---
 title: webR in Quarto HTML Documents
-format: html
-engine: knitr
+# format: html
+# engine: knitr
+format: revealjs
 filters:
   - webr
 ---
@@ -10,6 +11,5 @@ This is a webR-enabled code cell in a Quarto HTML document.
 
 ```{webr-r}
 fit = lm(mpg ~ am, data = mtcars)
-
 summary(fit)
 ```
